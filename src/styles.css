@@ -129,7 +129,7 @@ h1, h2 { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; lett
 
 .authority-grid { display: grid; grid-template-columns: .66fr 1.34fr; gap: 82px; align-items: center; }
 .authority-photo { width: min(100%, 390px); position: relative; justify-self: start; }
-.authority-photo img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 14px 140px 14px 14px; box-shadow: 0 28px 65px rgba(28,58,47,.18); }
+.authority-photo img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; border-radius: 14px 140px 14px 14px; box-shadow: 0 28px 65px rgba(28,58,47,.18); }
 .photo-tag { position: absolute; right: -28px; bottom: 28px; width: 126px; height: 126px; display: grid; place-content: center; text-align: center; color: var(--forest); background: var(--lime); border-radius: 50%; box-shadow: 0 15px 34px rgba(33,69,48,.22); }
 .photo-tag strong { font-family: "Instrument Serif", Georgia, serif; font-size: 37px; font-weight: 400; line-height: 1; }
 .photo-tag span { max-width: 80px; margin: 7px auto 0; font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
